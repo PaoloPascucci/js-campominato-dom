@@ -37,8 +37,10 @@ function easy() {
             this.style.backgroundColor = "skyblue";
             // console.log('cliccato');
 
-            const Bombe = Genbombs(100);
-            console.log(Bombe);
+
+
+            //const Bombe = Genbombs(100);
+            //console.log(Bombe);
         })
     }
 }
@@ -54,8 +56,12 @@ function medium() {
         Cell.addEventListener('click', function () {
             this.style.backgroundColor = "skyblue";
             // console.log('cliccato');
-            const Bombe = Genbombs(81);
-            console.log(Bombe);
+
+
+
+            //const Bombe = Genbombs(81);
+            //console.log(Bombe);
+
         })
     }
 }
@@ -67,11 +73,15 @@ function hard() {
         Cell.classList.add("gridcell");
         cont.append(Cell);
         Cell.innerHTML += i;
-        // const Bombe = Genbombs();
-        // console.log(Bombe);
         Cell.addEventListener('click', function () {
             this.style.backgroundColor = "skyblue";
             // console.log('cliccato');
+
+
+
+
+            // const Bombe = Genbombs();
+            // console.log(Bombe);
 
         })
     }
@@ -105,12 +115,12 @@ function Rnumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// //function is_a_bomb(Bombe) {
-//     if (bombs.includes(NCell)) {
-//         this.style.backgroundColor = "crimson";
+// 
+// //function is_a_bomb(Ncell, Bombe) {
+//     if (bombs.includes(Ncell)) {
+//         Cell.style.backgroundColor = "crimson";
 //     } else {
-//         this.style.backgroundColor = "skyblue";
+//         Cell.style.backgroundColor = "skyblue";
 //     }
 // }
-
 
