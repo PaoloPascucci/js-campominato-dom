@@ -1,0 +1,36 @@
+    body {
+        background-color: rgba(10, 248, 10, 0.541);
+    }
+
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gridcell {
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        background-color: grey;
+        line-height: 100px;
+        text-align: center;
+    }
+
+    .Azzurro {
+        background-color: skyblue;
+    }
+
+    .easy {
+        height: 800px;
+        margin: 3rem 27rem;
+    }
+
+    .medium {
+        height: 800px;
+        margin: 0rem 30.2rem;
+    }
+
+    .hard {
+        height: 710px;
+        margin: 3rem 37rem;
+    }
